@@ -1,0 +1,38 @@
+# Scan Code Worker Dependencies
+
+# Core async
+asyncio-mqtt==0.13.1
+aiofiles==23.2.1
+
+# NATS and Redis
+nats-py==2.6.0
+redis==5.0.1
+
+# Structured logging
+structlog==23.2.0
+
+# Python AST parsing
+libcst==1.0.1
+
+# YAML/JSON parsing
+pyyaml==6.0.1
+
+# OpenAPI validation (optional)
+openapi-spec-validator==0.7.1
+
+# HTTP client for GraphQL
+httpx==0.25.2
+
+# GraphQL parsing (optional)
+graphql-core==3.2.3
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Utilities
+python-dotenv==1.0.0
+ulid-py==1.1.0

@@ -1,0 +1,25 @@
+# Score Worker Dependencies
+
+# Core async
+asyncio-mqtt==0.13.1
+
+# NATS and Redis
+nats-py==2.6.0
+redis==5.0.1
+
+# Structured logging
+structlog==23.2.0
+
+# Data processing
+numpy==1.26.2
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Utilities
+python-dotenv==1.0.0
+ulid-py==1.1.0
